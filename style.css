@@ -172,7 +172,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1400px) {
 
     .column {
         float: left;
@@ -196,20 +196,21 @@ p {
         justify-content: flex-end;
         margin-left: 17em;
         /* margin-top: -150px; */
-        margin-top: -8.3em;
+        margin-top: -11em;
         font-size: 0.7em;
     }
 
     .bike-image {
 
-        height: 120px;
+        height: 100px;
         width: 20%;
-        margin-left: 1.2em;
+        margin-left: 5em;
 
-        margin-top: -5px
+        margin-top: -1px
     }
 
     .bike-image img {
+        margin-bottom: 20px;
         background:none;
         animation-name: example;
         animation-duration: 8s;
@@ -219,7 +220,7 @@ p {
 
     @keyframes example {
         0%   { left:0px; top:0px;}
-        50%  {left:700px; top:0px;}
+        50%  {left:750px; top:0px;}
         100%  {left:0px; top:0px;}
     }
 }
