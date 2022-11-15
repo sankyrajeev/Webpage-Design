@@ -1,0 +1,119 @@
+* {
+    background-color: #FCF8E7;
+
+
+
+}
+
+body {
+    max-width: 1500px;
+    margin: 2rem auto;
+}
+
+body>div {
+    margin: 2rem;
+}
+
+
+.header {
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 2px solid #E0C08B;
+    /* display: block; */
+}
+
+.city-cycle-header {
+    color: #404958;
+    font-size: 0.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+
+.bike-image {
+    display: block;
+    height: 150px;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    color: #404958;
+    font-size: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -1em;
+    font-style: normal;
+    opacity: 80%;
+    border-bottom: 3px solid #FFFCD5;
+
+}
+
+.content h1{
+    color: #404958;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+p{
+    color: #404958;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.line-color-a{
+    border-bottom: 20px solid #38BEBF;
+    display: block;
+    width:75%;
+    margin-top: -20px;
+    z-index: 1;
+    
+    
+
+}
+
+.line-color-b{
+    border-bottom: 20px solid #D95554;
+    display: block;
+    width:50%;
+
+}
+
+.line-color-c{
+    border-bottom: 20px solid #F1A932;
+    display: block;
+    width:25%;
+    z-index:auto
+    
+}
+
+
+
+
+
+.line-color-1{
+    border-bottom: 20px solid #38BEBF;
+    display: block;
+    height: 10px;
+    
+
+}
+
+.line-color-2{
+    border-bottom: 20px solid #D95554;
+    display: block;
+
+}
+
+.line-color-3{
+    border-bottom: 20px solid #F1A932;
+    display: block;
+    
+}
