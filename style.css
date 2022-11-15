@@ -129,10 +129,10 @@ p {
 @media only screen and (min-width: 820px) {
 
     .header {
-        
+
         font-size: 3em;
         padding-top: 0.25em;
-        border-bottom: 2px solid #E0C08B;
+        border-bottom: 8px solid #E0C08B;
 
     }
 
@@ -161,13 +161,65 @@ p {
         /* margin-top: -150px; */
         margin-top: -7em;
         font-size: 0.7em;
-       
+
 
 
     }
 
-    .content h1{
-        margin-top:40px;
+    .content h1 {
+        margin-top: 40px;
         height: 100px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    .line-color-a {
+        width: 100%;
+    }
+
+    .line-color-b {
+        width: 100%;
+    }
+
+    .line-color-c {
+        width: 100%;
+    }
+
+    h2 {
+        justify-content: flex-end;
+        margin-left: 17em;
+        /* margin-top: -150px; */
+        margin-top: -8.3em;
+        font-size: 0.7em;
+    }
+
+    .bike-image {
+
+        height: 120px;
+        width: 20%;
+        margin-left: 1.2em;
+
+        margin-top: -5px
+    }
+
+    .bike-image img {
+        background:none;
+        animation-name: example;
+        animation-duration: 8s;
+        position: relative;
+        animation-iteration-count: 10;
+    }
+
+    @keyframes example {
+        0%   { left:0px; top:0px;}
+        50%  {left:700px; top:0px;}
+        100%  {left:0px; top:0px;}
     }
 }
